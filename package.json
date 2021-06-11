@@ -1,7 +1,7 @@
 {
   "name": "aktindo.github.io",
   "version": "0.1.0",
-  "homepage": "https://aktindo.github.io",
+  "homepage": "https://aktindo.me",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.2",

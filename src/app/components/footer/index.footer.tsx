@@ -9,7 +9,7 @@ export class Footer extends React.Component<FooterProps, FooterState> {
   state = {};
   render() {
     return (
-      <footer className="body-font bg-base-200 fixed left-0 bottom-0 w-full">
+      <footer className="body-font bg-base-200 fixed left-0 bottom-0 w-full z-50">
         <div className="container px-4 py-4 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center">
             <img src={logo} alt="Aktindo-Logo" width="50px" />
