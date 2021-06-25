@@ -48,8 +48,8 @@ class App extends React.Component<AppProps, AppState> {
 
   render() {
     return (
-      <div className="App">
-        <Router>
+      <Router>
+        <div className="App">
           <Navbar />
           {this.state.loading && <LinearProgress className="mt-0" />}
           <Switch>
@@ -72,8 +72,8 @@ class App extends React.Component<AppProps, AppState> {
             <Route path="*" component={FourZeroFour} />
           </Switch>
           <Footer />
-        </Router>
-      </div>
+        </div>
+      </Router>
     );
   }
 }
